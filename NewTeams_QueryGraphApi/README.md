@@ -1,8 +1,8 @@
 Voici un script Powershell permettant de: 
-1.	La création d’un groupe Teams
-2.	L’activation du Plan par défaut du groupe Office365
+1.	Créer un groupe Teams
+2.	Activer/remplacer le Plan par défaut du groupe Office365
 
-Pour ce faire, il vous faudra (avec des droits d'administration):
+Pour ce faire, il vous faudra (avec des droits Local Admin):
 *	Installer le module Powershell Microsoft Teams depuis la Powershell Gallery (v1.0.0 au moment de l’édition du script)
 ```Powershell
 Install-Module -Name MicrosoftTeams
@@ -22,4 +22,3 @@ Enfin, voici des ressources supplémentaires afin d’approfondir la question :
 *	[Github](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/teams/teams-ps/teams/New-Team.md) Documentation pour l’usage des différentes CmdLet PS Microsoft Teams
 *	[Developers](https://developer.microsoft.com/en-us/graph/graph-explorer) Graph Explorer vous permettra de tester des requêtes REST sur l’API MSGraph
 *	[MS Docs](https://docs.microsoft.com/en-us/graph/api/planner-post-plans?view=graph-rest-1.0&tabs=cs#permissions) Documentation de l’API Graph (Article : CreatePlannerPlan)
-
