@@ -2,7 +2,7 @@ Voici un script Powershell permettant de:
 1.	Créer un groupe Teams
 2.	Activer/remplacer le Plan par défaut du groupe Office365
 
-Pour ce faire, il vous faudra (avec des droits d'administration):
+Pour ce faire, il vous faudra (avec des droits Local Admin):
 *	Installer le module Powershell Microsoft Teams depuis la Powershell Gallery (v1.0.0 au moment de l’édition du script)
 ```Powershell
 Install-Module -Name MicrosoftTeams
